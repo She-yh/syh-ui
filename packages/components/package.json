@@ -1,6 +1,6 @@
 {
   "name": "sheyh-ui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "src/index.js",
   "//": "files决定哪些需要发布到npm",
   "module": "es/index.js",
@@ -17,7 +17,6 @@
     "vue3组件库"
   ],
   "dependencies": {
-    "@syh-ui/utils": "workspace:^1.0.0",
     "sheyh-ui": "link:"
   },
   "author": "小月",
