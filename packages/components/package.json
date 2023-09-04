@@ -2,12 +2,14 @@
   "name": "syh-ui",
   "version": "1.0.0",
   "main": "src/index.js",
+  "//":"module决定文件入口",
   "module":"es/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"vite build"
   },
-  "files": [
+  "//":"files决定哪些需要发布到npm",
+  "files": [  
     "es",
     "lib"
   ],
