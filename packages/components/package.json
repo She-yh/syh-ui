@@ -1,0 +1,24 @@
+{
+  "name": "syh-ui",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "module":"es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"vite build"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "syh-ui",
+    "vue3组件库"
+  ],
+  "dependencies": {
+    "@syh-ui/utils": "workspace:^1.0.0"
+  },
+  "author": "小月",
+  "license": "MIT",
+  "description": ""
+}
