@@ -1,0 +1,7 @@
+node_modules
+node_modules
+**/es
+**/lib
+coverage
+*.log
+examples/dist
