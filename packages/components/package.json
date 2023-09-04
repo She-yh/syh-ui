@@ -2,14 +2,13 @@
   "name": "sheyh-ui",
   "version": "1.0.0",
   "main": "src/index.js",
-  "//":"module决定文件入口",
-  "module":"es/index.js",
+  "//": "files决定哪些需要发布到npm",
+  "module": "es/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"vite build"
+    "build": "vite build"
   },
-  "//":"files决定哪些需要发布到npm",
-  "files": [  
+  "files": [
     "es",
     "lib"
   ],
@@ -18,7 +17,8 @@
     "vue3组件库"
   ],
   "dependencies": {
-    "@syh-ui/utils": "workspace:^1.0.0"
+    "@syh-ui/utils": "workspace:^1.0.0",
+    "sheyh-ui": "link:"
   },
   "author": "小月",
   "license": "MIT",
