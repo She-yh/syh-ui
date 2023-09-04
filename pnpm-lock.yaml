@@ -21,8 +21,10 @@ importers:
   packages/components:
     specifiers:
       '@syh-ui/utils': workspace:^1.0.0
+      sheyh-ui: 'link:'
     dependencies:
       '@syh-ui/utils': link:../utils
+      sheyh-ui: 'link:'
 
   packages/utils:
     specifiers: {}
