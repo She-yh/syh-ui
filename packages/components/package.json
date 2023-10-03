@@ -2,24 +2,21 @@
   "name": "sheyh-ui",
   "version": "1.0.2",
   "main": "src/index.js",
-  "//": "files决定哪些需要发布到npm",
-  "module": "es/index.js",
+  "//":"module和main都作为入口文件，module大于main，先看module。打包之前设置module:es/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build"
   },
+  "//": "files决定哪些需要发布到npm",
   "files": [
     "es",
     "lib"
   ],
   "keywords": [
-    "syh-ui",
+    "sheyh-ui",
     "vue3组件库"
   ],
-  "dependencies": {
-    "sheyh-ui": "link:"
-  },
-  "author": "小月",
+  "author": "sheyh",
   "license": "MIT",
   "description": ""
 }

@@ -1,9 +1,15 @@
 <script setup>
-import { Button } from 'syh-ui'
+import { Button, VScroller } from 'sheyh-ui'
+import faker from 'faker'
+let data = [];
+for (let i = 0; i < 1000; i++) {
+  data.push({ id: i, value: faker.lorem.sentences() });
+}
 </script>
 
 <template>
   <Button></Button>
+  <VScroller :listData="data" :estimatedItemSize="100"></VScroller>
 </template>
 
 <style scoped>

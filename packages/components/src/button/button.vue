@@ -5,6 +5,6 @@
 </template>
 <script setup>
 let clickEvent = () => {
-    console.log("click")
+    alert("click")
 }
 </script>
